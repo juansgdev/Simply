@@ -1,0 +1,21 @@
+{
+  "name": "simply-web",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "simply": "./index.js"
+  },
+  "keywords": [
+    "SPA",
+    "framework"
+  ],
+  "author": "Juan Dev",
+  "license": "",
+  "description": "A Javascript framework that provides a complete environment to build SPA Applications. To simplify the modern web development process, diego focus in use as default html, css and js",
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}
