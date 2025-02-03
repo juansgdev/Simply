@@ -1,11 +1,11 @@
-import { mkdir, appendFile, execCommand } from '../../modules/util.js';
+import { mkdir, appendFile } from '../../modules/util.js';
 import { generatePackageJson, html } from './filesContent.js';
 
 export const initSimplyProject = (projectName) => {
     mkdir(projectName);
 
-    appendFile(`${projectName}/${projectName}.html`, html);
-    appendFile(`${projectName}/${projectName}.css`);
-    appendFile(`${projectName}/${projectName}.js`);
+    appendFile(`${projectName}/index.html`, html);
+    appendFile(`${projectName}/global.css`);
+    appendFile(`${projectName}/main.js`);
     appendFile(`${projectName}/package.json`, generatePackageJson(projectName));
 };

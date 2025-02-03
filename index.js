@@ -7,10 +7,10 @@ const cli = new Command;
 cli.name('simply-cli')
   .description("The Simply Framework cli!");
 
-cli.command('init')
-  .action(() => {
+cli.command('init <projectName>')
+  .action((projectName) => {
     console.log("Iniciando projeto com simply-cli! Iniciando...");
-    initSimplyProject('test');
+    initSimplyProject(projectName);
   });
 
 cli.parse();
