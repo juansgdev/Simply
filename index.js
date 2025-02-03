@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-const { Command } = require('commander');
+import { initSimplyProject } from './src/service/init/init.js';
+import {Command} from 'commander';
 const cli = new Command;
 
 cli.name('simply-cli')
@@ -8,7 +9,8 @@ cli.name('simply-cli')
 
 cli.command('init')
   .action(() => {
-    console.log("Olá simply-cli! Iniciando...");
+    console.log("Iniciando projeto com simply-cli! Iniciando...");
+    initSimplyProject('test');
   });
 
 cli.parse();
