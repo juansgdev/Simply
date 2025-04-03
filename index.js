@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { initSimplyProject } from './src/service/init/init.js';
+import { initSimplyProject } from './src/service/starter/starter.js';
 import {Command} from 'commander';
 const cli = new Command;
 
