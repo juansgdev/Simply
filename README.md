@@ -10,7 +10,7 @@
 npm install -g simply-web
 ```
 
-<span>3 - Now you have all of you need to use Sympli</span>
+<span>3 - Now you have all of you need to use Simply</span>
 
 <br>
 
@@ -18,7 +18,7 @@ npm install -g simply-web
 
 <span>1 - Choose the folder in you want to create the project</span>
 
-<span>2 - Now, run this command at a terminal in this folder and replacing project-name to the name of your project:</span>
+<span>2 - Now, run this command at a terminal in this folder and replace `project-name` to the name of your project:</span>
 
 ```
 simply init project-name
